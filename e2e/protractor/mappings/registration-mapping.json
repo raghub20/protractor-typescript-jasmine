@@ -1,0 +1,9 @@
+{
+    "objectToCreate": "RegistrationResource",
+    "expectedResult": "Expected Result",
+    "firstName": "first name",
+    "lastName": "last name",
+    "username": "username",
+    "password": "password",
+    "testCaseDescription": "Testcase description"
+}

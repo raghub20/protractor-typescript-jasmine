@@ -1,0 +1,43 @@
+{
+  "name": "protractor-automation-framework",
+  "version": "1.0.0",
+  "description": "Automation framework for angular based web application using protractor, typescript and jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor.config.js",
+    "pretest": "tsc",
+    "webdriver-manager": "webdriver-manager update --out_dir=",
+    "regression-suite": "protractor protractor.config.js --suite regressionSuite",
+    "preregression-suite": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raghub20/ProtractorFrameworkWithDataDriven.git"
+  },
+  "keywords": [
+    "Protractor",
+    "typescript",
+    "automation",
+    "framework"
+  ],
+  "author": "Raghu Bhairi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raghub20/ProtractorAutomationFramework/issues"
+  },
+  "homepage": "https://github.com/raghub20/ProtractorAutomationFramework#readme",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.7",
+    "@types/node": "^10.12.18",
+    "@types/protractor": "^4.0.0",
+    "jasmine": "^3.1.0",
+    "jasmine-data-provider": "^2.2.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "mz": "^2.7.0",
+    "protractor": "^5.3.2",
+    "protractor-pretty-html-reporter": "0.0.16",
+    "typescript": "^2.8.3",
+    "webdriver-manager": "^12.0.6",
+    "xlsx": "^0.12.13"
+  }
+}
